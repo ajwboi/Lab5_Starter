@@ -19,16 +19,16 @@ function changeHorn() {
   sound = document.querySelector("audio");
 
   if (horn.value == "air-horn") {
-    sound.src = "/assets/audio/air-horn.mp3";
-    img.src = "/assets/images/air-horn.svg";
+    sound.src = "./assets/audio/air-horn.mp3";
+    img.src = "./assets/images/air-horn.svg";
   }
   else if (horn.value == "party-horn") {
-    sound.src = "/assets/audio/party-horn.mp3";
-    img.src = "/assets/images/party-horn.svg";
+    sound.src = "./assets/audio/party-horn.mp3";
+    img.src = "./assets/images/party-horn.svg";
   }
   else if (horn.value == "car-horn") {
-    sound.src = "/assets/audio/car-horn.mp3";
-    img.src = "/assets/images/car-horn.svg";
+    sound.src = "./assets/audio/car-horn.mp3";
+    img.src = "./assets/images/car-horn.svg";
   }
 
   else {
