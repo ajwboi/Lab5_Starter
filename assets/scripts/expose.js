@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', init);
 var sound;
 
 function init() {
-  document.querySelector("#horn-select").addEventListener('choice', changeHorn);
+  document.querySelector("#horn-select").addEventListener('change', changeHorn);
   document.querySelector("button").addEventListener('click', playAudio);
   document.getElementById("volume-controls").addEventListener('input', changeVolIcon);
 }
